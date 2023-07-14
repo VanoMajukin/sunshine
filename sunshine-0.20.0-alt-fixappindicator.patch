@@ -1,0 +1,12 @@
+diff --color -ruN v0.20.0/CMakeLists.txt v0.20.0-new/CMakeLists.txt
+--- v0.20.0/CMakeLists.txt	2023-05-29 08:11:33.000000000 +0300
++++ v0.20.0-new/CMakeLists.txt	2023-07-13 15:23:57.112119391 +0300
+@@ -430,7 +430,7 @@
+ 
+     # tray icon
+     if(${SUNSHINE_ENABLE_TRAY})
+-        pkg_check_modules(APPINDICATOR appindicator3-0.1)
++        pkg_check_modules(APPINDICATOR ayatana-appindicator3-0.1)
+         if(NOT APPINDICATOR_FOUND)
+             message(WARNING "Couldn't find appindicator, disabling tray icon")
+             set(SUNSHINE_TRAY 0)

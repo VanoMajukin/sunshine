@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Sunshine
+Comment=A self-hosted game stream host for Moonlight with ipv6 patch
+Exec=/usr/bin/sunshine-0.20.0
+Terminal=false
+Type=Application
+Icon=sunshine
+Keywords=sunshine,moonlight,ipv6,stream,game;
+Categories=AudioVideo;Recorder;Utility;Network;

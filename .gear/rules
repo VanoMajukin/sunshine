@@ -1,0 +1,14 @@
+spec: sunshine.spec
+tar: @name@
+tar: .gear/predownloaded-development name=@name@-development-@version@ base=
+tar: moonlight-common-c name=moonlight-common-c base=third-party/moonlight-common-c
+tar: enet name=enet-v1.3.17 base=third-party/moonlight-common-c/enet
+tar: Simple-Web-Server name=Simple-Web-Server base=third-party/Simple-Web-Server
+tar: miniupnp name=miniupnp base=third-party/miniupnp
+tar: nv-codec-headers name=nv-codec-headers-n11.1.5.2 base=third-party/nv-codec-headers
+tar: TPCircularBuffer name=TPCircularBuffer base=third-party/TPCircularBuffer
+tar: ffmpeg-linux-x86_64 name=ffmpeg-linux-x86_64 base=third-party/ffmpeg-linux-x86_64
+tar: nanors name=nanors base=third-party/nanors
+tar: tray name=tray base=third-party/tray
+copy?: *.patch
+copy: sunshine.desktop
